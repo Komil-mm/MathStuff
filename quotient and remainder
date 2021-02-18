@@ -1,0 +1,27 @@
+// finds quotient and remainder just as the title says
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int x;
+    int y;
+    
+    int quotient;
+    int remain;
+    
+    cout << "Enter the value for x: ";
+    cin >> x;
+    cout << "Enter the value for y: ";
+    cin >> y;
+    
+    quotient = x/y;
+    remain = x % y;
+    
+    
+    cout << "Quotient = " << quotient <<endl;
+    cout << "Remainder = " << remain <<endl;
+
+}
