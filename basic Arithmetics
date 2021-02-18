@@ -1,0 +1,30 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    double x;
+    double y;
+    double sum;
+    double difference;
+    double product;
+    double increment;
+    
+    cout << "Enter the value for x: ";
+    cin >> x;
+    cout<< "Enter the value for y: ";
+    cin >> y;
+    
+    sum = x+y;
+    difference = x - y;
+    product = x * y;
+    increment = x + 1;
+    
+    
+    cout << "Sum= " << sum <<endl;
+    cout << "Difference= " << difference << endl;
+    cout << "Product= " << product << endl;
+    cout << "x after incrementing= " << increment << endl;
+
+}
