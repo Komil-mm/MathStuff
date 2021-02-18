@@ -1,0 +1,30 @@
+// Calculator with powers and using the cmath library
+
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+    int x;
+    float z;
+    
+    float a;
+    float b;
+    float c;
+    
+    cout << "Enter a non-zero integer x: ";
+    cin >> x;
+
+    a = (1/x);
+    b = 2/pow(x,2);
+    c = 3/pow(x,3);
+    
+    z = a+b+c;
+    
+    
+    cout << "z= " << z <<endl;
+
+
+}
