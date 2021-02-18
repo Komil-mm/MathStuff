@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int length;
+    int width;
+    
+    int area;
+    int perimeter;
+    
+    cout << "Enter the value for length: ";
+    cin >> length;
+    cout<< "Enter the value for width: ";
+    cin >> width;
+    
+    area = length*width;
+    perimeter = (2*length) + (2*width);
+
+    
+    cout << "Area " << area <<endl;
+    cout << "Perimeter= " << perimeter << endl;
+
+}
